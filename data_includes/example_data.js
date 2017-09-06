@@ -29,7 +29,7 @@ var host = "http://files.lab.florianschwarz.net/ibexfiles/Pictures/",
 
 var items = [
 
-    ["Redirect", "Message", {include:{html: "Redirect.html"}}],
+    ["Redirect", "Message", {html: {include: "Redirect.html"}}],
 
     ["Instructions", "__SetCounter__", { }],
     
